@@ -9,7 +9,8 @@
     "check:lint": "biome lint .",
     "check:format": "biome format .",
     "check": "biome check .",
-    "fix": "biome check --apply ."
+    "fix": "biome check --apply .",
+    "generate": "plop"
   },
   "dependencies": {
     "@mantine/core": "^7.8.0",
@@ -23,6 +24,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "plop": "^4.0.1",
     "typescript": "^5"
   }
 }
