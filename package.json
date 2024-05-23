@@ -9,6 +9,8 @@
     "check:lint": "biome lint .",
     "check:format": "biome format .",
     "check": "biome check .",
+    "lint:style": "stylelint './**/*.{css,scss,sass}'",
+    "lint:style:fix": "stylelint --fix './**/*.{css,scss,sass}'",
     "fix": "biome check --apply .",
     "generate": "plop"
   },
@@ -29,6 +31,12 @@
     "postcss-preset-mantine": "^1.15.0",
     "postcss-simple-vars": "^7.0.1",
     "sass": "^1.77.2",
+    "stylelint": "^16.5.0",
+    "stylelint-config-idiomatic-order": "^10.0.0",
+    "stylelint-config-recommended-scss": "^14.0.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard-scss": "^13.1.0",
+    "stylelint-prettier": "^5.0.0",
     "typescript": "^5.4.5"
   }
 }

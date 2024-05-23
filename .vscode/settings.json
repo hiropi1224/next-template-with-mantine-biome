@@ -5,6 +5,9 @@
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -12,10 +15,10 @@
     "editor.defaultFormatter": "biomejs.biome"
   },
   "cSpell.words": ["biomejs", "mantine", "nextjs", "tabler", "webp"],
-  "css.validate": false,
   "editor.codeActionsOnSave": {
     "quickfix.biome": "always",
-    "source.organizeImports.biome": "always"
+    "source.organizeImports.biome": "always",
+    "source.fixAll.stylelint": "explicit"
   },
   "editor.defaultFormatter": "biomejs.biome",
   "editor.formatOnSave": true,
