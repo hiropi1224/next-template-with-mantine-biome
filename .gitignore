@@ -34,3 +34,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+*.module.scss.d.ts
+*.module.scss.d.ts.map
+*.css.d.ts
+*.css.d.ts.map
